@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Liftoff</title>
+
+		<!-- FONTS -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
+
+		<!-- CSS STYLES -->
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<style>body {position: relative; padding-top: 50px;}</style>
+
+		<!-- ICON -->
+		<![if !IE]>
+		<link rel="Icon" href="Content/icon.jpg" type="image/png" />
+		<![endif]>
+		<link rel="Icon" href="Content/icon.ico" type="image/ico" />
+
+	</head>
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="55">
+
+		<!-- NAVIGATION BAR -->
+		<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+			<ul class="nav navbar-nav pull-left">
+				<li><a id="navbuttons" href="#top">HOME</a></li>
+				<li><a id="navbuttons" href="#about">ABOUT</a></li>
+				<li><a id="navbuttons" href="#team">TEAM</a></li>
+			</ul>
+		</nav>
+		<!-- END NAVIGATION BAR -->
+
+		<!-- HEADER -->
+		<div id="top" class="jumbotron">
+			<div class="container">
+			<h1>LIFTOFF</h1>
+				<div class="row">
+					<div class="col-lg-4">
+						</br></br></br></br>
+						<div class="panel panel-default panel-jobs">
+							<div class="panel-heading panel">
+								<div class="form">
+									<ul class="tab-group">
+										<li class="tab active"><a href="#signup">Sign Up</a></li>
+										<li class="tab"><a href="#login">Log In</a></li>
+									</ul> 
+									<div class="tab-content">
+										<div id="signup">
+											<form action="/" method="post">
+												<div class="top-row">
+													<div class="field-wrap">
+														<label>
+															First Name<span class="req">*</span>
+														</label>
+														<input type="text" required autocomplete="off" />
+													</div>
+													<div class="field-wrap">
+														<label>
+															Last Name<span class="req">*</span>
+														</label>
+														<input type="text"required autocomplete="off"/>
+													</div>
+												</div>
+												<div class="field-wrap">
+													<label>
+														Email Address<span class="req">*</span>
+													</label>
+													<input type="email"required autocomplete="off"/>
+												</div>
+												<div class="field-wrap">
+													<label>
+														Set A Password<span class="req">*</span>
+													</label>
+													<input type="password"required autocomplete="off"/>
+												</div>
+												<button type="submit" class="button button-block"/>Get Started</button>
+											</form>
+										</div>
+										<div id="login">   
+											<h6>Welcome Back!</h6>
+											<form action="/" method="post">
+												<div class="field-wrap">
+												<label>
+													Email Address<span class="req">*</span>
+												</label>
+												<input type="email"required autocomplete="off"/>
+												</div>
+												<div class="field-wrap">
+												<label>
+													Password<span class="req">*</span>
+												</label>
+												<input type="password"required autocomplete="off"/>
+												</div>
+												<p class="forgot"><a href="#">Forgot Password?</a></p>
+												<button class="button button-block"/>Log In</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						</br></br></br></br>
+						<div class="panel panel-default panel-jobs">
+							<div class="panel-heading panel">
+								<h7><i>Recognize Your Potential</i></h7>
+								<img src="Content/Liftoff.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>  
+		<!-- END HEADER -->
+
+		<!-- ABOUT -->
+		<div id="about" class="about">
+			<div class="container">
+				<h5>ABOUT</h5>
+			</div>
+		</div>
+		<!-- END ABOUT -->
+
+		<!-- TEAM -->
+		<div id="team" class="team">
+			<div class="container">
+				<div class="row">
+					<h5>TEAM</h5>
+					<div class="row">
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="text-center">
+						<div class="col-lg-4">
+							<div class="panel panel-default panel-jobs">
+								<div class="panel-heading panel-heading-jobs">
+									<img src="Content/paolo.jpg">
+								</div>
+								<div class="panel-body panel-jobs lead lead-jobs" style="margin: 0">
+									<h4>Paolo Torres</h4></br>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="panel panel-default panel-jobs">
+								<div class="panel-heading panel-heading-jobs">
+									<img src="Content/jeffrey.jpg">
+								</div>
+								<div class="panel-body panel-jobs lead lead-jobs" style="margin: 0">
+									<h4>Jeffrey Quiambao</h4></br>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="panel panel-default panel-jobs">
+								<div class="panel-heading panel-heading-jobs">
+									<img src="Content/nusair.jpg">
+								</div>
+								<div class="panel-body panel-jobs lead lead-jobs" style="margin: 0">
+									<h4>Nusair Haq</h4></br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h8>Liftoff &copy; 2016</h8>
+		</div>
+		<!-- END TEAM -->
+
+		<!-- JS -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script>
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top-50
+							}, 1000);
+							return false;
+						}
+					}
+				});
+			});
+			$('.form').find('input, textarea').on('keyup blur focus', function (e) {
+				var $this = $(this),
+				label = $this.prev('label');
+				if (e.type === 'keyup') {
+					if ($this.val() === '') {
+						label.removeClass('active highlight');
+					} else {
+						label.addClass('active highlight');
+					}
+				} else if (e.type === 'blur') {
+					if( $this.val() === '' ) {
+						label.removeClass('active highlight'); 
+					} else {
+						label.removeClass('highlight');   
+					}   
+				} else if (e.type === 'focus') {
+					if( $this.val() === '' ) {
+						label.removeClass('highlight'); 
+					} 
+					else if( $this.val() !== '' ) {
+						label.addClass('highlight');
+					}
+				}
+			});
+			$('.tab a').on('click', function (e) {
+				e.preventDefault();
+				$(this).parent().addClass('active');
+				$(this).parent().siblings().removeClass('active');
+				target = $(this).attr('href');
+				$('.tab-content > div').not(target).hide();
+				$(target).fadeIn(600);
+				$('html,body').animate({
+					scrollTop: target.offset().top-50
+				}, 1000);
+			});
+		</script>  
+		<!-- END JS -->
+
+	</body>
+
+</html>
